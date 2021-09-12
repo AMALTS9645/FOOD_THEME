@@ -407,9 +407,9 @@ footer > ul > li {
 
   
 .hero__start__image__container{
-  margin-top: 3rem;
+  margin-bottom: 3rem;
   width: 100%;
-  height: 590px;
+  height: 600px;
   z-index: 45;
 }
 
@@ -424,9 +424,10 @@ font-size: 30px;
   .hero__container {
     position: relative;
     overflow: hidden;
-    width: 50%; height: 50%;
+    width: 70%; height: 50%;
     left: 300px;
     margin-top: 20rem;
+    padding: 2rem 0.5rem 0rem 0.5rem;
     border-radius: 5px;
   }
   
@@ -463,8 +464,9 @@ font-size: 30px;
   }
 
   .hero__container__description{
-    padding: 2rem 1rem;
+    padding: 0rem 1rem 3rem 1rem;
     margin-bottom: 3rem;
+    top: 0px;
   }
 
   .hero__description {
@@ -473,7 +475,8 @@ font-size: 30px;
   }
 
   .hero__image__container{
-    padding: 1rem;  
+    padding: 1rem; 
+    border-radius: 5px;
   }
 
   .hero__image__shape {
@@ -487,7 +490,6 @@ font-size: 30px;
   .hero__image__content {
     padding: 6rem 6rem;
     top: 2rem;
-    border-radius: 1rem;
   }
 
   .video__footage__container{
