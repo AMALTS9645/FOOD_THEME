@@ -40,6 +40,7 @@ body {
 
 .nav__items {
   height: 60px;
+  align-items: center;
   background-color:white;
   padding: 1rem;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -57,10 +58,10 @@ body {
   padding: 0.5rem 0.5rem;
   text-align: center;
   transition: 0.5s;
-  font-weight: 300;
+  font-weight: 600;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 10px #12cee3;
+  box-shadow: 0 0 10px red;
   border-radius: 4px;
 }
 
@@ -408,7 +409,7 @@ footer > ul > li {
 .hero__start__image__container{
   margin-top: 3rem;
   width: 100%;
-  height: 570px;
+  height: 590px;
   z-index: 45;
 }
 
@@ -426,6 +427,7 @@ font-size: 30px;
     width: 50%; height: 50%;
     left: 300px;
     margin-top: 20rem;
+    border-radius: 5px;
   }
   
   @-webkit-keyframes slidey {
@@ -461,6 +463,7 @@ font-size: 30px;
   }
 
   .hero__container__description{
+    padding: 2rem 1rem;
     margin-bottom: 3rem;
   }
 
@@ -508,9 +511,9 @@ font-size: 30px;
 
     background-image: linear-gradient(
       to right,
-      #991bcf 0%,
-      #12cee3 51%,
-      #991bcf 100%
+      #cf9823 0%,
+      #ff7700 51%,
+      #cf9823 100%
     );
     z-index: -3;
   }
