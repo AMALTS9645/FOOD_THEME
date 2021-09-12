@@ -51,8 +51,8 @@ body {
 .button__primary {
   background-image: linear-gradient(to right,
       #979797 0%,
-      #5c7d63 51%,
-      #979797 100%);
+      #337ef5 51%,
+      #0021f5 100%);
   cursor: pointer;
   margin: 4px;
   padding: 0.5rem 0.5rem;
@@ -61,7 +61,7 @@ body {
   font-weight: 600;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 10px red;
+  box-shadow: 0 0 10px rgb(0, 119, 255);
   border-radius: 4px;
 }
 
@@ -211,9 +211,9 @@ body {
 .video__footage::before {
   background-image: linear-gradient(
       to right,
-      #991bcf 0%,
-      #12cee3 51%,
-      #991bcf 100%
+      #979797 0%,
+      #337ef5 51%,
+      #979797 100%
   );
   content: "";
   top: 0px;
